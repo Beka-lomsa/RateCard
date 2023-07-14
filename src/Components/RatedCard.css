@@ -1,0 +1,46 @@
+.ratedContainer {
+  width: 412px;
+  height: 416px;
+  background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50.00% 0%, #232A34 0%, #181E27 100%));
+  border-radius: 30px;
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.mobileImg {
+  margin-top: 45px;
+  width: 162px;
+  height: 108px;
+}
+.resultText{ 
+  margin-top: 32px;
+  background-color: #262E38;
+  color: #FC7614;
+  padding: 4px 20px;
+  font-size: 15px;
+  line-height: 24px;
+  border-radius: 22.5px;
+  width: 200px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.headerMain {
+  margin-top: 32px;
+  color: #ffff;
+}
+.appreciateLetter{ 
+  margin-top: 35px;
+  padding: 0px 40px;
+  color: #969FAD;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
